@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black 3px;
+    z-index: 1; 
+    padding: 0;
+    
+    
+
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 10%;
+}
+
+
+.container div{
+    background-color: white;
+    border: solid black 1px;
+}
+
+
+
+body{
+    background: lightsteelblue;
+}
+
+
