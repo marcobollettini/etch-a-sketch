@@ -28,6 +28,9 @@ button{
     border: solid black 1px;
 }
 
+.pass{
+    background-color: black !important;
+}
 
 
 body{
